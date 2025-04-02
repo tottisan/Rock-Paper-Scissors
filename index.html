@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOP - Rock, Paper, Scissors</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="dashboard container">
+
+        <div class="dashboard-title">
+          <img src="./images/logo.svg" alt="Rock, Paper, Scissors Logo" class="dashboard-logo"/>
+        </div>
+
+        <div class="dashboard-score">
+          <div class="score">
+            <h3 class="score-title">Score</h3>
+            <h2 class="score-number" id="score">0</h2>
+          </div>
+
+          <div class="score">
+            <h3 class="score-title">CPU</h3>
+            <h2 class="score-number" id="cpuScore">0</h2>
+          </div>
+        </div>
+        
+      </div>
+    </header>
+
+    <main>
+      <article class="container">
+        <div class="game-btn paper-panel" id="paper">
+          <div class="game-panel">
+            <img src="./images/icon-paper.svg" class="game-img" alt="Paper Icon" />
+          </div>
+        </div>
+
+        <div class="game-btn scissors-panel" id="scissors">
+          <div class="game-panel">
+            <img src="./images/icon-scissors.svg" class="game-img" alt="Scissors Icon" />
+          </div>
+        </div>
+
+        <div class="game-btn rock-panel" id="rock">
+          <div class="game-panel">
+            <img src="./images/icon-rock.svg" class="game-img" alt="Rock Icon" />
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="rules">
+        <button class="rules-btn" id="rules">Rules</button>
+      </div>
+    </footer>
+  </body>
+</html>
